@@ -1,207 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Track your daily healthy habits with our interactive weekly tracker.">
-    <meta name="keywords" content="habit tracker, healthy habits, weekly goals, wellness tracking">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Habits Table | Simple Healthy Living</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description"
+            content="Track your daily healthy habits with our interactive weekly tracker.">
+        <meta name="keywords"
+            content="habit tracker, healthy habits, weekly goals, wellness tracking">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Habits Table | Simple Healthy Living</title>
+        <link rel="stylesheet" href="style.css">
 
-<body>
+        <!-- Google Analytics -->
+        <script async
+            src="https://www.googletagmanager.com/gtag/js?id=G-KKR21TVSYV"></script>
+        <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-KKR21TVSYV');
+    </script>
+    </head>
 
-    <!-- ================= HEADER ================= -->
+    <body>
 
-    <header>
-        <div class="logo-container">
-            <img src="logo.png" alt="Simple Healthy Living Logo" class="logo-img">
-            <div class="logo-text">
-                <span class="brand-main">Simple</span>
-                <span class="brand-highlight">Healthy</span>
-                <span class="brand-main">Living</span>
+        <!-- ================= HEADER ================= -->
+
+        <header>
+            <div class="logo-container">
+                <img src="logo.png" alt="Simple Healthy Living Logo"
+                    class="logo-img">
+                <div class="logo-text">
+                    <span class="brand-main">Simple</span>
+                    <span class="brand-highlight">Healthy</span>
+                    <span class="brand-main">Living</span>
+                </div>
             </div>
-        </div>
 
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="healthy-eating.html">Healthy Eating</a>
-            <a href="physical-activity.html">Physical Activity</a>
-            <a href="stress-management.html">Stress Management</a>
-            <a href="habits-table.html">Habits Table</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="healthy-eating.html">Healthy Eating</a>
+                <a href="physical-activity.html">Physical Activity</a>
+                <a href="stress-management.html">Stress Management</a>
+                <a href="habits-table.html">Habits Table</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
 
-    <!-- ================= HERO ================= -->
+        <!-- ================= HERO ================= -->
 
-    <section class="hero" style="background-image: url('healthy_lifestyle_background1.jpg'); height: 250px;">
-        <div class="hero-text">
-            <h2>Your Weekly Healthy Habits Tracker</h2>
-            <p>Check off habits as you complete them. Aim for consistency, not perfection!</p>
-        </div>
-    </section>
-
-    <!-- ================= HABITS TABLE SECTION ================= -->
-
-    <section class="page-section light-section">
-        <div class="section-heading">
-            <h2>Track Your Progress</h2>
-            <p>Use this table to monitor your daily healthy habits throughout the week.</p>
-        </div>
-
-        <table class="habits-table">
-            <thead>
-                <tr>
-                    <th>Habit</th>
-                    <th>Category</th>
-                    <th>Mon</th>
-                    <th>Tue</th>
-                    <th>Wed</th>
-                    <th>Thu</th>
-                    <th>Fri</th>
-                    <th>Sat</th>
-                    <th>Sun</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Drink 8 glasses of water</td>
-                    <td>💧 Hydration</td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                </tr>
-                <tr>
-                    <td>30-minute walk or exercise</td>
-                    <td>🏃 Exercise</td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                </tr>
-                <tr>
-                    <td>Eat 5 servings of fruits/vegetables</td>
-                    <td>🥗 Nutrition</td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                </tr>
-                <tr>
-                    <td>7-8 hours of sleep</td>
-                    <td>😴 Rest</td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                </tr>
-                <tr>
-                    <td>10 minutes of mindfulness/meditation</td>
-                    <td>🧘 Stress Management</td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                </tr>
-                <tr>
-                    <td>Stretch for 5-10 minutes</td>
-                    <td>🤸 Flexibility</td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                </tr>
-                <tr>
-                    <td>No sugary drinks</td>
-                    <td>🥤 Nutrition</td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                </tr>
-                <tr>
-                    <td>Take breaks during work</td>
-                    <td>☕ Productivity</td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                </tr>
-            </tbody>
-        </table>
-        
-        <p class="habits-table-caption">✓ Check off each habit as you complete it daily. Try to beat your previous week's score!</p>
-        
-        <div style="text-align: center; margin-top: 40px;">
-            <button class="btn" onclick="alert('Tracker reset! You can start fresh for the new week.')">Reset for New Week</button>
-            <button class="btn" style="margin-left: 15px;" onclick="alert('Progress saved! Keep up the great work!')">Save Progress</button>
-        </div>
-    </section>
-
-    <!-- ================= TIPS SECTION ================= -->
-
-    <section class="page-section soft-section">
-        <div class="section-heading">
-            <h2>Tips for Building Lasting Habits</h2>
-            <p>Small steps lead to big changes over time</p>
-        </div>
-        
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px;">
-            <div style="background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.05);">
-                <h3 style="color: var(--primary); margin-bottom: 10px;">1. Start Small</h3>
-                <p>Begin with 2-3 habits instead of trying to change everything at once. Master these before adding more.</p>
+        <section class="hero"
+            style="background-image: url('healthy_lifestyle_background1.jpg'); height: 250px;">
+            <div class="hero-text">
+                <h2>Your Weekly Healthy Habits Tracker</h2>
+                <p>Check off habits as you complete them. Aim for consistency,
+                    not perfection!</p>
             </div>
-            
-            <div style="background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.05);">
-                <h3 style="color: var(--primary); margin-bottom: 10px;">2. Be Consistent</h3>
-                <p>It's better to do a little every day than a lot once in a while. Consistency builds momentum.</p>
-            </div>
-            
-            <div style="background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.05);">
-                <h3 style="color: var(--primary); margin-bottom: 10px;">3. Track Progress</h3>
-                <p>Use this table to visualize your consistency. Seeing your progress is highly motivating.</p>
-            </div>
-            
-            <div style="background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.05);">
-                <h3 style="color: var(--primary); margin-bottom: 10px;">4. Forgive Slip-ups</h3>
-                <p>Missing one day doesn't ruin your progress. Just get back on track tomorrow.</p>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- ================= FOOTER ================= -->
+        <!-- ================= HABITS TABLE SECTION ================= -->
 
-    <footer>
-        <p>© 2026 Simple Healthy Living | All Rights Reserved</p>
-    </footer>
+        <section class="page-section light-section">
+            <div class="section-heading">
+                <h2>Track Your Progress</h2>
+                <p>Use this table to monitor your daily healthy habits
+                    throughout the week.</p>
+            </div>
 
-</body>
+            <table class="habits-table">
+                <thead>
+                    <tr>
+                        <th>Habit</th>
+                        <th>Category</th>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                        <th>Sun</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Drink 8 glasses of water</td>
+                        <td>💧 Hydration</td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td>30-minute walk or exercise</td>
+                        <td>🏃 Exercise</td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td>Eat 5 servings of fruits/vegetables</td>
+                        <td>🥗 Nutrition</td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td>7-8 hours of sleep</td>
+                        <td>😴 Rest</td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td>10 minutes of mindfulness/meditation</td>
+                        <td>🧘 Stress Management</td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td>Stretch for 5-10 minutes</td>
+                        <td>🤸 Flexibility</td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td>No sugary drinks</td>
+                        <td>🥤 Nutrition</td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td>Take breaks during work</td>
+                        <td>☕ Productivity</td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p class="habits-table-caption">✓ Check off each habit as you
+                complete it daily. Try to beat your previous week's score!</p>
+
+            <div style="text-align: center; margin-top: 40px;">
+                <button class="btn"
+                    onclick="alert('Tracker reset! You can start fresh for the new week.')">Reset
+                    for New Week</button>
+                <button class="btn" style="margin-left: 15px;"
+                    onclick="alert('Progress saved! Keep up the great work!')">Save
+                    Progress</button>
+            </div>
+        </section>
+
+        <!-- ================= TIPS SECTION ================= -->
+
+        <section class="page-section soft-section">
+            <div class="section-heading">
+                <h2>Tips for Building Lasting Habits</h2>
+                <p>Small steps lead to big changes over time</p>
+            </div>
+
+            <div
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px;">
+                <div
+                    style="background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.05);">
+                    <h3 style="color: var(--primary); margin-bottom: 10px;">1.
+                        Start Small</h3>
+                    <p>Begin with 2-3 habits instead of trying to change
+                        everything at once. Master these before adding more.</p>
+                </div>
+
+                <div
+                    style="background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.05);">
+                    <h3 style="color: var(--primary); margin-bottom: 10px;">2.
+                        Be Consistent</h3>
+                    <p>It's better to do a little every day than a lot once in a
+                        while. Consistency builds momentum.</p>
+                </div>
+
+                <div
+                    style="background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.05);">
+                    <h3 style="color: var(--primary); margin-bottom: 10px;">3.
+                        Track Progress</h3>
+                    <p>Use this table to visualize your consistency. Seeing your
+                        progress is highly motivating.</p>
+                </div>
+
+                <div
+                    style="background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.05);">
+                    <h3 style="color: var(--primary); margin-bottom: 10px;">4.
+                        Forgive Slip-ups</h3>
+                    <p>Missing one day doesn't ruin your progress. Just get back
+                        on track tomorrow.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= FOOTER ================= -->
+
+        <footer>
+            <p>© 2026 Simple Healthy Living | All Rights Reserved</p>
+        </footer>
+
+    </body>
 
 </html>
